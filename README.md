@@ -217,7 +217,7 @@ MIT License - see LICENSE file
 
 📞 Demo & Support
 
-• Live Bot: http://t.me/AgenticFinanceBNBBot
+• Live Bot: https://t.me/AgenticFinanceBNBBot
 
 • Demo Video: https://youtu.be/yourlink
 
