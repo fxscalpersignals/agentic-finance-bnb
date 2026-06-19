@@ -219,7 +219,7 @@ MIT License - see LICENSE file
 
 • Live Bot: https://t.me/AgenticFinanceBNBBot
 
-• Demo Video: https://youtu.be/yourlink
+• Demo Video: https://www.youtube.com/watch?v=PExA2GRwlSQ
 
 • Telegram: @yourusername
 
