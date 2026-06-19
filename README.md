@@ -156,13 +156,18 @@ MIT License - see LICENSE file
 🙏 Acknowledgments
 
 • BNB Chain for hackathon + RPC
+
 • CoinMarketCap for price data API
+
 • Tavily for RAG that actually works
+
 • Trust Wallet for deep links
 
 📞 Demo & Support
 • Live Bot: https://t.me/YourBotUsername
+
 • Demo Video: https://youtu.be/yourlink
+
 • Telegram: @yourusername
 
 Built for BNB Hack 2026 — AI Trading Agent Edition
