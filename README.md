@@ -180,9 +180,8 @@ _Autonomous scan powered by Tavily AI_
 
 🔥 Trade on Trust Wallet
 
-🔥 Trade on Trust Wallet
 
-## 🏆 Bounty Compliance
+🏆 Bounty Compliance
 
 | Bounty | Implementation | Proof |
 | --- | --- | --- |
