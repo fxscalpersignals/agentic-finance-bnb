@@ -180,6 +180,18 @@ _Autonomous scan powered by Tavily AI_
 
 🔥 Trade on Trust Wallet
 
+🔥 Trade on Trust Wallet
+
+## 🏆 Bounty Compliance
+
+| Bounty | Implementation | Proof |
+| --- | --- | --- |
+| $36k Main Pool | Autonomous Auto-Scanner + ATR Risk Management + BNB Chain RPC | `Auto-Scanner ON` + Risk 1-10 + Gas price |
+| $2k Tavily | RAG drives sentiment → signal score. Timestamp proof. | `Powered by Tavily AI \| 07:23 UTC` |
+| $2k CMC | Primary price/volume/market cap source. CMC Rank shown. | `✅ CoinMarketCap` + `Mkt Cap: $87.2B` |
+| $2k Trust Wallet | One-click HTTPS deep link to swap | `🔥 Trade on Trust Wallet` button |
+
+
 🔒 API Rate Limits & Safety
 
  • CMC Free: 333 calls/day → 5 min scan = 288/day ✅ Safe
