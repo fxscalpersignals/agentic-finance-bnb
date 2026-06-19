@@ -30,7 +30,7 @@ Built for BNB Hack: AI Trading Agent Edition
 
 🧠 AI-Powered Analysis
 
-- Tavily RAG: Powered by Tavily AI  08:15 UTC Real news summaries, not fake sentiment
+- Tavily RAG: Powered by Tavily AI | 08:15 UTC — Real news summaries , not fake sentiment
 
 - Multi-Source Data: CoinMarketCap + CoinGecko + Binance aggregated
 
@@ -50,7 +50,7 @@ Built for BNB Hack: AI Trading Agent Edition
 
 🔗 BNB Chain Native
 
-- Web3 RPC: Direct connection to `bsc-rpc.publicnode.com'
+- Web3 RPC: Direct connection to `bsc-rpc.publicnode.com`
 
 - Gas Tracker:  BNB Chain (3.0 Gwei) shown on every signal
 
