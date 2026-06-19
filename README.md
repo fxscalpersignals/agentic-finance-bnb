@@ -42,28 +42,44 @@ Built for BNB Hack: AI Trading Agent Edition
 - BEP-20 Ready: Architecture supports token trading
 
 🏗️ Architecture
+Agentic Finance BNB is built as a real-time, multi-layered AI Trading Agent focused on the BNB Smart Chain ecosystem.
 
-```mermaid
+Core System Flow
 
-graph TD
-    A[Auto-Scanner Loop] -->|Every 5 min| B[Signal Engine]
-    B --> C[CMC Price Data]
-    B --> D[Tavily RAG News]
-    B --> E[BNB Chain Gas]
-    B --> F[Technical: RSI/ATR/SR]
-    
-    C --> G[Risk Score 1-10]
-    D --> G
-    E --> G
-    F --> G
-    
-    G -->|Score >= 2.0| H[Telegram DM Alert]
-    G -->|Score < 2.0| I[Silent]
-    
-    H --> J[User]
-    J --> K[Trust Wallet]
-    
-    L[Manual /start] --> B
+User Interface Layer
+
+• Telegram Bot with rich inline keyboard menu
+• One-click access to signals, sector map, whale radar, gas price, and AI intel
+
+Data Acquisition Layer
+
+• Primary: CoinMarketCap Pro API (price, volume, market cap, 24h change)
+• Fallbacks: CoinGecko + Binance API
+• On-Chain: BNB Smart Chain public RPCs (multiple endpoints with failover)
+
+Technical Analysis Layer
+
+• RSI (14-period)
+• ATR (Average True Range) for volatility
+• Dynamic Support & Resistance levels
+• Multi-timeframe price action analysis
+
+AI Intelligence Layer
+
+• Tavily AI (Advanced Search + RAG) for real-time news and sentiment analysis
+• Cleans and summarizes market news
+• Detects bullish/bearish sentiment from latest sources
+
+Risk & Decision Engine
+
+• Combines price momentum, RSI, sentiment, and gas fees
+• Calculates composite Risk Score (1-10)
+• Generates intelligent BUY / SELL / HOLD signals with Entry, Stop Loss, and Target
+
+Output & Execution Layer
+• Formatted trading signals with clear rationale
+• Direct Trust Wallet deep links for instant swap/send
+• Auto-Scanner mode (autonomous background scanning every 5 minutes)
 
 🛠️ Tech Stack
 Core: Python 3.9+, python-telegram-bot, asyncio, aiohttp 
@@ -73,17 +89,20 @@ Web3: web3.py → BNB Smart Chain RPC
 Deploy: Railway/Render + GitHub Actions
 
 📦 Installation
+
 git clone https://github.com/yourusername/agentic-finance-bnb.git
 cd agentic-finance-bnb
 pip install -r requirements.txt
 
 requirements.txt
+
 python-telegram-bot==20.7
 aiohttp==3.9.1
 web3==6.15.1
 tavily-python==0.3.0
 
 Environment
+
 export TELEGRAM_BOT_TOKEN="your_token"
 export CMC_API_KEY="your_cmc_key"
 export TAVILY_API_KEY="your_tavily_key"
@@ -121,26 +140,30 @@ Data Sources
 🕐 07:08 UTC
 _Autonomous scan powered by Tavily AI_
 
-[🔥 Trade on Trust Wallet]
+🔥 Trade on Trust Wallet
 
 🔒 API Rate Limits & Safety
+
  • CMC Free: 333 calls/day → 5 min scan = 288/day ✅ Safe
  • Tavily Free: 1000/month → Only scans when Auto-Scan ON ✅
  • User Cooldown: 2s between manual requests
  • No keys in repo: All via env vars
 
 📝 License
+
 MIT License - see LICENSE file
 
 🙏 Acknowledgments
- • BNB Chain for hackathon + RPC
+
+• BNB Chain for hackathon + RPC
 • CoinMarketCap for price data API
 • Tavily for RAG that actually works
 • Trust Wallet for deep links
+
 📞 Demo & Support
 • Live Bot: https://t.me/YourBotUsername
 • Demo Video: https://youtu.be/yourlink
- • Telegram: @yourusername
+• Telegram: @yourusername
 
 Built for BNB Hack 2026 — AI Trading Agent Edition
 Not financial advice. Autonomous agents can be wrong.
